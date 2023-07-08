@@ -6,13 +6,14 @@ while i<5
 end
 
 # for loop
-for i in 0..5
-  puts i
+for x in 0..5
+  puts x
 end
 
-# each loop (for arrays)
-(0..4) each do |i|
-  puts i
+# each loop (for arrays, hash or range)
+# iterates over each element in the array, assigning it to the variable between | |.
+(0..4) each do |y|
+  puts y
 end
 #output:
 # 0
