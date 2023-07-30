@@ -8,8 +8,8 @@ clientID = ENV['DISCORD_CLIENT_ID']
 
 # response loading
 sad_response = YAML.load_file('Responses/sad.yml') # sad.yml
-joke = YAML.load_file('Responses/joke.yml')
-
+#joke_response = 
+# to get from api
 
 # ready event
 bot.ready do
